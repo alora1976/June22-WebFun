@@ -1,0 +1,39 @@
+div{
+   
+    padding: 2px;
+    margin: 20px;
+}
+.search{
+    padding: 5px 50px;
+    border-radius: 50px;
+    color: green;
+    background-color: rgba(245, 245, 245, 0.918);
+    border: 2px solid green;
+    font-size: large;
+    
+
+    
+    
+}
+.add{
+    padding: 10px 15px;
+    border-radius: 50px;
+    color:white;
+    background-color: rgba(24, 216, 152, 0.836);
+    border:none;
+    font-size: larger;
+
+}
+.account{
+    padding: 5px 20px;
+    background-color: rgb(0, 102, 255);
+    font-size: large;
+    color: white;
+    border-style: solid black;
+    box-shadow: 5px 5px 5px 0px black;
+    
+    
+
+    
+    
+}
