@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container {
+    width: 1000px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card {
+    width:100%;
+    background-color: #fff;
+    border:2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+
+}
+.card-body {
+    padding:20px
+
+}
+h1,h2,h3,p {
+    margin: 20px 0px;
+
+}
+.heading {
+
+    background-color: #17a2b8;
+    height: 130px;
+    margin-bottom: 70px;
+}
+.gear-icon {
+    height: 20px;
+}
+.profile-image {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+.pin{
+    height: 20px;
+}
