@@ -1,0 +1,122 @@
+/* Profile Card */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container {
+    width: 1000px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card {
+    width:100%;
+    background-color: #fff;
+    border:2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+
+}
+.card-body {
+    padding:20px
+
+}
+h1,h2,h3,p {
+    margin: 20px 0px;
+
+}
+.heading {
+
+    background-color: #17a2b8;
+    height: 130px;
+    margin-bottom: 70px;
+}
+.gear-icon {
+    height: 20px;
+}
+.profile-image {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.edit-link {
+    color: #3a81e6;
+}
+.pin{
+    height: 20px;
+}
+
+/* Nav Bar */
+.body-nav{
+    width: auto;
+    margin: 0 auto;
+    padding:20px;
+    
+    
+}
+.nav {
+    background-color: rgba(0, 0, 0, 0.767);
+    display: flex;
+
+    
+}
+
+.nav-title {
+    color: white;
+    margin: 1em;
+    padding-left: 3em;
+    
+
+}
+.nav-links {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 30px 30px 30px 350px;
+    
+    
+
+    
+}
+.a-tags-nav{
+    color: rgba(230, 230, 230, 0.658);
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn{
+    width: 6em;
+    height: 2em;
+    color: white;
+    background-color: rgba(10, 189, 189, 0.753);
+    box-shadow: 0px 5px 5px 0px black;
+    
+    
+    
+}
+.active{
+    color: white;
+
+}
+#signout {
+margin:auto;
+
+
+    
+}
