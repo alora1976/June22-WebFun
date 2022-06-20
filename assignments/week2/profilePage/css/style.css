@@ -59,13 +59,13 @@ body {
     display: flex;
 }
 
-.col, .col-2 {
+.right-column, .left-column {
     margin: 10px;
     padding: 10px;
     flex: 1;
 }
 
-.col-2 {
+.left-column {
     flex: 2;
 }
 
@@ -139,7 +139,7 @@ a {
     margin-right: 10px;
 }
 
-.user-line {
+.users {
     display: flex;
     justify-content: space-between;
     margin: 20px;
