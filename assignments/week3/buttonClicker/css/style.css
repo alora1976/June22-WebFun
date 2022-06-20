@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+.top {
+    background-color: #f87a03;
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.right-column, .left-column {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.left-column {
+    flex: 2;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card, .card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #f87A03;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body p {
+    margin: 20px 0px;
+    
+}
+
+
+.header {
+    background-color: #fff;
+    padding: 40px;
+    color: #070707;
+    font-size: 24px;
+    
+}
+
+
+
+
+.def-btn {
+    height: 35px;
+    width: 120px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    display: flex;
+    align-items: center;
+    margin:auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.search {
+    
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    
+
+
+}
+input {
+    width: 400px;
+    height: 30px;
+    position: relative;
+    right:40%;
+}
+
+h2 {
+    margin: -14px;
+    font-weight: bold;
+}
+.ninjas {
+    font-style: italic;
+}
+.noun {
+    font-style: italic;
+}
+.programmer {
+
+    position: relative;
+    left: 250px;
+    bottom: 85px;
+    
+}
+
+.ninjutsu {
+
+    position: relative;
+    left: 250px;
+    bottom: 85px;
+
+}
+
+.you {
+    font-weight: bold;
+}
