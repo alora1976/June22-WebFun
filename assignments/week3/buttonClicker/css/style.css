@@ -77,7 +77,7 @@ body {
     align-items: center;
 }
 
-.user-card, .card {
+.top-card, .card {
     width: 100%;
     background-color: #fff;
     border: 2px solid #f87A03;
