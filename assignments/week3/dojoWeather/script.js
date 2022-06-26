@@ -46,3 +46,11 @@ function generateRainbowText(element) {
     element.appendChild(charElem);
     }
 }
+
+function over(element) {
+    element.style.backgroundColor = "pink";    
+}
+    
+function out(element) {
+    element.style.backgroundColor = "black";   
+}
