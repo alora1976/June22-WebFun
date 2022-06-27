@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f8f4f8;
+    color: rgb(9, 9, 9);
+    font-weight: bold;
+    font-size: large;
+    margin: 25px;
+    padding: 10px;
+    margin-top: 20px;
+}
+h1 {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+.pastel-rainbow-text {
+    background-image: linear-gradient(to left, #e5b3f7, #f8c27b, #f9f2a5, #bdf17d, #91b3fb, #b791f8, #c04bf7);
+}
