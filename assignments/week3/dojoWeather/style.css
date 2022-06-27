@@ -83,7 +83,7 @@ body {
 
 .forecast img {
     border-radius: 50%;
-    width: 156px;
+    width: 170px;
     margin: 40px 0;
 }
 
@@ -152,3 +152,4 @@ body {
 .text p {
     font-size: 1.2rem;
 }
+
